@@ -1,0 +1,1257 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><style>.codehilite pre .hll { background-color: #f8eec7 }
+.codehilite pre  { background: #ffffff; color: #333333 }
+.codehilite pre .c { color: #999988; font-style: italic } /* Comment */
+.codehilite pre .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.codehilite pre .k { font-weight: bold } /* Keyword */
+.codehilite pre .n { color: #333333 } /* Name */
+.codehilite pre .o { font-weight: bold } /* Operator */
+.codehilite pre .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.codehilite pre .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.codehilite pre .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.codehilite pre .cs { color: #999988; font-style: italic } /* Comment.Special */
+.codehilite pre .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.codehilite pre .ge { font-style: italic } /* Generic.Emph */
+.codehilite pre .gr { color: #aa0000 } /* Generic.Error */
+.codehilite pre .gh { color: #999999 } /* Generic.Heading */
+.codehilite pre .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.codehilite pre .go { color: #888888 } /* Generic.Output */
+.codehilite pre .gp { color: #555555 } /* Generic.Prompt */
+.codehilite pre .gs { font-weight: bold } /* Generic.Strong */
+.codehilite pre .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codehilite pre .gt { color: #aa0000 } /* Generic.Traceback */
+.codehilite pre .kc { font-weight: bold } /* Keyword.Constant */
+.codehilite pre .kd { font-weight: bold } /* Keyword.Declaration */
+.codehilite pre .kn { font-weight: bold } /* Keyword.Namespace */
+.codehilite pre .kp { font-weight: bold } /* Keyword.Pseudo */
+.codehilite pre .kr { font-weight: bold } /* Keyword.Reserved */
+.codehilite pre .kt { font-weight: bold } /* Keyword.Type */
+.codehilite pre .m { color: #945277 } /* Literal.Number */
+.codehilite pre .s { color: #df5000 } /* Literal.String */
+.codehilite pre .na { color: #008080 } /* Name.Attribute */
+.codehilite pre .nb { color: #0086b3 } /* Name.Builtin */
+.codehilite pre .nc { color: #445588; font-weight: bold } /* Name.Class */
+.codehilite pre .no { color: #094e99 } /* Name.Constant */
+.codehilite pre .nd { color: #333333 } /* Name.Decorator */
+.codehilite pre .ni { color: #800080 } /* Name.Entity */
+.codehilite pre .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.codehilite pre .nf { color: #945277; font-weight: bold } /* Name.Function */
+.codehilite pre .nl { color: #333333 } /* Name.Label */
+.codehilite pre .nn { color: #555555 } /* Name.Namespace */
+.codehilite pre .nx { color: #333333 } /* Name.Other */
+.codehilite pre .py { color: #333333 } /* Name.Property */
+.codehilite pre .nt { color: #000080 } /* Name.Tag */
+.codehilite pre .nv { color: #008080 } /* Name.Variable */
+.codehilite pre .ow { font-weight: bold } /* Operator.Word */
+.codehilite pre .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite pre .mb { color: #945277 } /* Literal.Number.Bin */
+.codehilite pre .mf { color: #945277 } /* Literal.Number.Float */
+.codehilite pre .mh { color: #945277 } /* Literal.Number.Hex */
+.codehilite pre .mi { color: #945277 } /* Literal.Number.Integer */
+.codehilite pre .mo { color: #945277 } /* Literal.Number.Oct */
+.codehilite pre .sb { color: #df5000 } /* Literal.String.Backtick */
+.codehilite pre .sc { color: #df5000 } /* Literal.String.Char */
+.codehilite pre .sd { color: #df5000 } /* Literal.String.Doc */
+.codehilite pre .s2 { color: #df5000 } /* Literal.String.Double */
+.codehilite pre .se { color: #df5000 } /* Literal.String.Escape */
+.codehilite pre .sh { color: #df5000 } /* Literal.String.Heredoc */
+.codehilite pre .si { color: #df5000 } /* Literal.String.Interpol */
+.codehilite pre .sx { color: #df5000 } /* Literal.String.Other */
+.codehilite pre .sr { color: #017936 } /* Literal.String.Regex */
+.codehilite pre .s1 { color: #df5000 } /* Literal.String.Single */
+.codehilite pre .ss { color: #8b467f } /* Literal.String.Symbol */
+.codehilite pre .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.codehilite pre .vc { color: #008080 } /* Name.Variable.Class */
+.codehilite pre .vg { color: #008080 } /* Name.Variable.Global */
+.codehilite pre .vi { color: #008080 } /* Name.Variable.Instance */
+.codehilite pre .il { color: #945277 } /* Literal.Number.Integer.Long */</style><title>2015-04-3-mobile-activities</title></head><body><article class="markdown-body"><hr />
+<p>layout: guide<br />
+title:  Mobile Activities for English language learning<br />
+date:   2015-05-11 08:59:53<br />
+categories: guides</p>
+<hr />
+<p><img alt="Mobile Learning Activities for English Language learning" src="images/front_cover_activities_m.png" /></p>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons Licence" /></a><br /><br />
+Mobile Language Learning: A Micro-Guide for Educators by Thomas Sweeney and Simon Wardman is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<h2 id="where-to-access-this-guide"><a name="user-content-where-to-access-this-guide" href="#where-to-access-this-guide" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Where to access this guide</h2>
+<p>You can access this guide either from it&rsquo;s web page on the <a href="http://www.teachability.eu">Teachability Website</a> or via Jiscs website.</p>
+<p>The guide is available in the following electronic formats:</p>
+<ul>
+<li><strong>Epub</strong>: iBooks for iPhone, iPad and OSX</li>
+<li><strong>Mobi</strong>: Amazon Kindle</li>
+<li><strong>HTML</strong>: Web Browsers</li>
+<li><strong>Text</strong>: Everything else.</li>
+</ul>
+<p>The version on the Teachability website (<a href="http://teachability.eu/guides/location-based-activities-language-learning-micro-guide-educators/">http://teachability.eu/guides/location-based-activities-language-learning-micro-guide-educators/</a>) is the canonical version. We will be updating this version with any additions or corrections (just) before any of the other versions. So if you want the latest and greatest then read stick to this version.</p>
+<h2 id="what-is-this"><a name="user-content-what-is-this" href="#what-is-this" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What is this?</h2>
+<p>This guide is an experiment in <a href="http://en.wikipedia.org/wiki/Crowdsourcing">crowd sourced</a> research and publishing. What your reading now is the first revision of what we hope will expand over time to include a number of different activities, reviews and general views and ideas about learning all contributed by a community of educators, learners, researchers and everyone in between. With luck&ndash;and your help&ndash;we aim to develop a resources that will contribute to the ongoing conversations on how we can use mobile technology in teaching and learning. Your contributions could be as simple as tidying up the source material through identifying spelling and grammar errors or as in-depth as designing and adding new material of your own such as new teaching activities or photography or graphics or even tutorial videos for others to learn from.</p>
+<h2 id="how-to-contribute"><a name="user-content-how-to-contribute" href="#how-to-contribute" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>How to contribute</h2>
+<p>Both Simon and I have started this guide, but we need you to help us complete it. Although perhaps <em>complete</em> isn&rsquo;t the right word here, we hope that this guide will never be completed, at least in any traditional sense. We hope that through your contributions this document can expand and adapt as mobile technology and the pedagogy that it supports it changes and evolves.</p>
+<p>There are a few different ways you can contribute to this guide depending on <em>how</em> much you want to contribute and <em>what</em> you want to contribute.</p>
+<p>If you want to draw our attention to a glaring spelling mistake or grammatical <em>faux-pas</em> then a short email to either or both of the authors would be appreciated.</p>
+<p>If you are looking to contribute something more substantial such as an article, photography or a video then feel free to contact us using any of the methods listed below.</p>
+<h3 id="sending-an-email"><a name="user-content-sending-an-email" href="#sending-an-email" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sending an Email</h3>
+<p>Comments, corrections and complaints can be sent to either <a href="mailto:tommy@teachability.eu">Thomas Sweeney </a> or <a href="mailto:simon@teachability.eu">Simon Wardman</a>. We would love to hear from you no matter what your experience with this guide, positive or negative. If you find it useful then of course, please tell us&ndash;who doesn&rsquo;t like praise? However, we are equally as anxious to hear about any potential improvements or corrections.</p>
+<h3 id="leave-a-comment-on-our-website"><a name="user-content-leave-a-comment-on-our-website" href="#leave-a-comment-on-our-website" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Leave a comment on our website</h3>
+<p>If you prefer a more open, social form of communication you can leave comments on our website. We&rsquo;ve made a page for this guide at <a href="http://teachability.eu/guides/"><a href="http://www.teachability.eu/guides"><a href="http://www.teachability.eu/guides">www.teachability.eu/guides</a></a></a>. We use the <a href="https://disqus.com/">Disqus</a> social comment system.</p>
+<h3 id="social-media"><a name="user-content-social-media" href="#social-media" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Social Media</h3>
+<p>You can contact either of the authors individually via their respective <a href="http://www.twitter.com">Twitter</a> accounts<br />
+Simon Wardman <a href="https://twitter.com/NottinghamColle">@nottinghamcolle</a><br />
+Thomas Sweeney <a href="https://twitter.com/tomdsweeney">@TomDSweeney</a><br />
+Alternatively we have a joint account <a href="https://twitter.com/teachablog">@teachablog</a><br />
+You can follow, share pictures, send messages or follow Tommy on <a href="https://plus.google.com/">Google Plus</a> via <a href="http://www.google.com/+TommySweeney">google.com/+TommySweeney</a></p>
+<h3 id="github"><a name="user-content-github" href="#github" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>GitHub</h3>
+<p>Finally, for the technically inclined the entire guide, including images, videos and text is available as a <a href="http://www.github.com">Github</a> repository. We won&rsquo;t detail the ins and outs of Git in this guide, if you know what it is and know how to use it then you&rsquo;ll know how powerful it is. If not, don&rsquo;t worry. You can create, modify and otherwise play around with the source material by downloading a <a href="https://www.google.co.uk/?gfe_rd=cr&amp;ei=1nhpVJzlJYuCbKy4gOgF&amp;gws_rd=ssl#q=zip+file">zip</a> file directly from <a href="GitHub"><a href="https://github.com/"><a href="https://github.com/">https://github.com/</a></a></a>.</p>
+<h2 id="modifying-and-using-this-guide-elsewhere"><a name="user-content-modifying-and-using-this-guide-elsewhere" href="#modifying-and-using-this-guide-elsewhere" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Modifying and Using this Guide Elsewhere</h2>
+<p>We have licensed this work via a (highly) permissive Creative Commons license. To cut through the legalese this basically means that you are free to build, modify and publish new materials based on this guide as long as you give proper attribution. The full details of this license are available from the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Website</a>.</p>
+<h1 id="introduction"><a name="user-content-introduction" href="#introduction" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Introduction</h1>
+<p>This is an introduction to Mobile Learning. You have probably heard at least something about this new field before, even if it&rsquo;s just the idea of using Mobile Devices in the classroom. In the final section of the book we will discuss some engaging activities you can use with your English language students. Specifically, we will focus on how you can use mobile devices running free, off the shelf tools to create engaging, playful experiences that can add a new dimension to your lessons.  There has been a great deal written about how institutions can incorporate Mobile Learning. Often, evidence is taken from pilot studies in academia and are rooted in educational theory. Yet, many of these documents, while informative, fail to provide readers with a basic understanding of how to use mobile devices in their classroom practice. Even current documentation from Jisc (while well written and accessible) is aimed at Managers interested in institution-wide adoption e.g. <a href="http://www.jiscinfonet.ac.uk/infokits/mobile-learning/implementation/10-steps-adoption/">The Jisc infoKit on Mobile Learning</a>. We feel that there is a need to involve teachers and learners more directly in the design and adoption of mobile tools in learning. Indeed, we feel that it is time that teachers feel confident enough to introduce mobile technology to their lessons without the intervention of managers or academics. <em>Please help me with this paragraph, especially the last sentence.</em></p>
+<h2 id="mobile-devices-the-story-so-far"><a name="user-content-mobile-devices-the-story-so-far" href="#mobile-devices-the-story-so-far" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mobile Devices: The Story So Far</h2>
+<p>When <a href="http://en.wikipedia.org/wiki/Steve_Jobs">Steve Jobs</a> took to the stage at the 2007 Macworld Conference to announce the iPhone, even he couldn&rsquo;t have predicted the way this new technology would change the world. In just a few short years, the iPhone changed how we watch video, listen to music, browse the web and communicate with each other. Many of us carry a mobile phone with us twenty-four hours a day (yep, even in the toilet). We check them for text messages, social media interactions to see who&rsquo;s posted what where. We check them even when we know we out of habit&ndash;every 15 minutes (on average). Our mobile devices have become so essential, so pervasive that we feel them <a href="http://www.psychologytoday.com/blog/rewired-the-psychology-technology/201305/phantom-pocket-vibration-syndrome">vibrate in our pockets when they aren&rsquo;t there</a>.</p>
+<iframe width="640" height="360" src="//www.youtube.com/embed/vN4U5FqrOdQ" frameborder="0" allowfullscreen></iframe>
+
+<p>In 2010, Apple introduced the next logical step in mobile technology, the <a href="http://en.wikipedia.org/wiki/IPad_%281st_generation%29">iPad</a>. Like the iPhone before it, the iPad was a roaring, worldwide success, selling three million units in the first 80 days after its release.</p>
+<p>The success of the iPhone left technology giants like LG, Nokia and Samsung scrambling to create something even half as compelling as the iPhone. In the middle of this storm, Google managed to emerge with the <a href="http://en.wikipedia.org/wiki/Android_%28operating_system%29">Android platform</a>. Released almost two years after the original iPhones debut, Android has gone on to become the <a href="http://www.businessinsider.com/iphone-v-android-market-share-2014-5?IR=T">world&rsquo;s most adopted mobile platform</a>. The best known of these devices is Google&rsquo;s own <a href="http://en.wikipedia.org/wiki/Google_Nexus">Nexus</a> series of <a href="http://en.wikipedia.org/wiki/Smartphone">mobile phones</a> and <a href="http://en.wikipedia.org/wiki/Tablet_computer">tablets</a>.</p>
+<p>As we write this in late 2014, both Google and Apple have only just released the latest version of their respective mobile platforms. Oddly enough, despite the fierce competition between these two platforms, both of them are more similar than ever and offer almost identical functionality. Your Students will, hopefully, have one or perhaps a mixture of these devices. The age of these devices shouldn&rsquo;t matter too much. As long as they have Internet connectivity (either via <a href="http://en.wikipedia.org/wiki/Wi-Fi">Wi-Fi</a> or through the devices own built-in wireless connectivity).</p>
+<p>Yet even as Steve Jobs was introducing the iPhone, the relationship between education and mobile technology was already thirty-five years in the making.</p>
+<hr />
+<p>In 1972, <a href="http://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a>, a 32 year old, Mathematician, Computer Scientist and education enthusiast published a paper detailing his vision for the Dynabook, a small, magazine-sized computer that could be used by children (of all ages) to consume, create and share books, music and video. Even in this early document, Kay had specified that such a device could allow its users to design utilities and games and share resources with other Dynabook users.</p>
+<p><img alt="Alan Kay holding a prototype of the Dynabook" src="images/alan_kay_with_dynabook_m.jpg" /></p>
+<p>Kay had worked closely with Educational visionary <a href="http://www.papert.org/">Seymour Papert</a> &ndash; the designer of the <a href="http://en.wikipedia.org/wiki/Logo_(programming_language)">LOGO programming language</a>, <a href="http://en.wikipedia.org/wiki/Lego_Mindstorms">Lego Mindtorms</a> and <a href="http://en.wikipedia.org/wiki/Constructionism_(learning_theory)">Constructionism</a>. He had also worked under the educational theorist <a href="http://en.wikipedia.org/wiki/Jean_Piaget">Jean Piaget</a>. Like Papert before him, Kay was not so much concerned with designing technology, rather his interest was in developing new methods for teaching and learning supported by technology.</p>
+<p>As well intentioned as Kay was there was just one problem. In 1972, computers were large, almost the same size as the rooms they sat in. Yet, for all their size, they couldn&rsquo;t really do much. Large banks used them to store customer records, calculate compound interest. Even the mouse was five years away from invention. Kay was a visionary, ahead of his time, it would take decades for technology to catch up. Over the next 35 years, we would see those large corporate-owned computers begin their transition from oversized office furniture to common home appliances. At home, we perched them on our kitchen tables, along with those deep, beige monitors and in time, monitors became flatter, the computers faster. The Internet would quickly graduate from &lsquo;a nice thing to have&rsquo; to a necessity like the phone and television before it. By the late nineties, Colleges and Universities had filled rooms with commodity PC&rsquo;s &ndash; the Information Technology boom had begun.</p>
+<p>Mobile Phones, comedically oversized and overpriced began to show up in the hands of London Yuppies some time in the late eighties. It would take another ten years for Nokia to saturate the market with cheap commodity phones for the public to enjoy. Classics like the 3210 allowed us to</p>
+<p>With this new technology, seemingly ubiquitous it didn&rsquo;t take long for prominent scholars such as <a href="https://www.google.co.uk/search?q=mike+sharples&amp;oq=mike+sharples&amp;aqs=chrome..69i57j0l5.2288j0j7&amp;sourceid=chrome&amp;es_sm=0&amp;ie=UTF-8&amp;qscrl=1">Mike Sharples</a>, Professor at the Open University, to <a href="http://www.mlearn.org/mlearn2005/CD/papers/Sharples-%20Theory%20of%20Mobile.pdf">theorise on how Mobile Learning could transform education</a>.</p>
+<p>When Apple released the iPad in 2010 it seemed like most of the Dynabook design had at last been realized. Of course, Apple did not design the iPad as a pedagogical tool, they didn&rsquo;t need to.</p>
+<p>Unlike many other technologies, mobile devices have their roots in learning.</p>
+<p>It us up to us to ensure that this potential is realised.</p>
+<h2 id="why-use-mobile-devices-in-language-learning"><a name="user-content-why-use-mobile-devices-in-language-learning" href="#why-use-mobile-devices-in-language-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Why Use Mobile Devices in Language Learning?</h2>
+<p>A common problem second language teachers encounter is how to stimulate learners to engage with their new language when away from the classroom. For some learners, the learning stops when they leave the classroom. Its reasonably safe to assume that learning a second language is different from learning other subjects such as Chemistry and History. Learning a language is a 24 hour a day affair. Most of the actual learning will take place outside of formal learning situations. This is especially true when the student is studying and living in the country of the target language. We know that productive language learners develop their own strategies early on in their learning. They learn to be on the lookout for new and novel vocabulary both written and spoken and take notes to capture new language as they encounter it. Mobile devices provide an ideal technology to capture new language. Whether it is spoken utterances, written phrases or a combination of both. Mobile devices are central to how we communicate now. It would follow that learning a new language should incorporate this new form of communication.</p>
+<h2 id="further-reading"><a name="user-content-further-reading" href="#further-reading" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Further Reading</h2>
+<p>Kay, A. C. (1972, August). A personal computer for children of all ages. In Proceedings of the ACM annual conference-Volume 1 (p. 1). ACM.<br />
+The original version of this paper is available from Mprove: <a href="http://www.mprove.de/diplom/gui/Kay72a.pdf">http://www.mprove.de/diplom/gui/Kay72a.pdf</a></p>
+<p>Sharples, M., Taylor, J., &amp; Vavoula, G. (2005). Towards a theory of mobile learning. Proceedings of mLearn 2005, 1(1), 1-9. Available from the Open University: <a href="http://oro.open.ac.uk/6005/1/Task_ModeSingleLineSpace.pdf">http://oro.open.ac.uk/6005/1/Task_ModeSingleLineSpace.pdf</a></p>
+<h1 id="examples"><a name="user-content-examples" href="#examples" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Examples</h1>
+<p>There have been a wealth of studies (both academic and less formal, teacher-led work) that attempt to bring together location and language learning. They vary wildly in quality of implementation and validity of results. This guide is far from being an academic document, however a basic understanding of what&rsquo;s <em>out there</em> in the academic world will serve us well in developing our own activities.</p>
+<p>Rather than having students nested behind desks, they can be out in the <em>real world</em>.</p>
+<h1 id="benefits-of-mobile-technology"><a name="user-content-benefits-of-mobile-technology" href="#benefits-of-mobile-technology" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Benefits of Mobile Technology</h1>
+<p>The central benefit of mobile technology is that it is <em>truly personal</em>. Despite their name, <a href="http://en.wikipedia.org/wiki/Personal_computer">Personal Computers</a> are anything but personal. Many of us carry our mobile device with us at all times, they have replaced our MP3 players, phones and even laptops. Always-on Internet connectivity is both cheap and (fairly) reliable. We can access our mobile devices when we want, and being Internet enabled, we can access the world, anywhere and any time.</p>
+<h2 id="contextual-learning"><a name="user-content-contextual-learning" href="#contextual-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Contextual Learning</h2>
+<p>Context is a word that gets thrown around a lot when discussing technology and learning. You may have heard about Contextual Computing or even used Google Now thats is currently available in most modern Android devices. When we think of context we think about a situation and the various aspects of that contribute to that situation.</p>
+<p>An often quoted definition comes from Brown (2010) who says that context can be described as:</p>
+<blockquote>
+<p>&ldquo;The formal or informal setting in which a situation occurs; it can include many aspects or dimensions, such as environment, social activity, goals or tasks of groups and individuals; time (year/month/day).&rdquo;</p>
+</blockquote>
+<p>We like this definition, it&rsquo;s clear and to the point and captures all the necessary aspects of context namely location, people, tools and time. When we discuss context we are really discussing a situation. The place or location, the people who were there, the tools and technology that was used and the time it occurred. When we say that &ldquo;I saw Mike last Thursday night. We had a few drinks at the Cock and Bull and he gave&rdquo; we are really describing all the fundamental aspects of a context.</p>
+<p><img alt="A (rather crude) visualization of Context" src="images/context_drawing.png" /></p>
+<h2 id="context-in-education"><a name="user-content-context-in-education" href="#context-in-education" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Context in Education.</h2>
+<p>Most of us have both taught and learned within the classroom context A typical classroom will contain desks, chairs, a white-board, perhaps even some desktop computers. Classrooms are boring by design. They are blank slates, it is up to the teacher to create meaning and inspiration.</p>
+<p>This is not the space to criticize the classroom. It has it&rsquo;s place and function, and in the right hands can be as. However, it&rsquo;s a big world out there. And incorporating learning that happens outside of the classroom can form a crucial facet of your lessons. <em>this needs work</em></p>
+<p><strong>So, how does context contribute to learning?</strong><br />
+To answer this question we need to go way back to ancient Greece.</p>
+<h2 id="bring-your-own-device-byod"><a name="user-content-bring-your-own-device-byod" href="#bring-your-own-device-byod" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bring Your Own Device (BYOD)</h2>
+<p>BYOD has had a lot of press attention lately as a <a href="http://goo.gl/o9G7Qd">cursory web search will reveal</a>. The central idea is that Colleges and Universities would rely on using students own devices rather than institutional technology.</p>
+<p>The idea is an attractive one and the benefits to all are manifold. Colleges and Universities would no longer need to employ technicians to repair and look after desktop computers. Time would be saved on the sourcing and purchasing of computer hardware, no desktop computers, monitors or ugly wires in the classroom.</p>
+<p>Yet as attractive a proposition as it is, any BYOD policy would need careful planning. Ethical considerations abound.  Would students ultimately bare sole responsibility for the content of their devices? What if a student downloaded offensive content and shared it with other learners in the classroom?</p>
+<p>These are just some of the concerns are at the core of the argument against the move to personal technologies in the classroom. Yet already we can see this shift happening, with or without the blessing of the institution learners are incorporating their personal devices in to their learning.</p>
+<h2 id="bibliography"><a name="user-content-bibliography" href="#bibliography" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Bibliography</h2>
+<p>Brown, E. (2010) ‘Introduction to location-based mobile learning’ (in Brown, E. (ed.), (2010) Education in the wild: contextual and location-based mobile learning in action, University of Nottingham: Learning Sciences Research Institute)</p>
+<p>Sharples, M., Adams, A., Ferguson, R., Gaved, M., McAndrew, P., Rienties, B., Weller, M., &amp; Whitelock, D. (2014).Innovating Pedagogy 2014: Open University Innovation Report 3.Milton Keynes: The Open University.</p>
+<h1 id="tools"><a name="user-content-tools" href="#tools" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tools</h1>
+<h2 id="mobile-devices"><a name="user-content-mobile-devices" href="#mobile-devices" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mobile Devices</h2>
+<p>We expect that most of your learners will have a mobile phone of their own, whether it be an iPhone, Android, Blackberry or Windows. The exact device doesn’t matter too much at this stage as we will be focusing on simple activities that rely on nothing more than the web browser available in all (reasonably) modern devices. We won’t focus on any specific make or models here as no doubt there will be a plethora of new phones and tablets released before this guide is released.</p>
+<p>At the time of writing (October 2014) the (iPhone 6)[<a href="https://www.apple.com/uk/iphone-6/">https://www.apple.com/uk/iphone-6/</a>] and (iPad Air 2)[<a href="https://www.apple.com/ipad-air-2/">https://www.apple.com/ipad-air-2/</a>] have just been released the media as awash with excited reviews of these new devices. Google has just released there new new Android OS version 5 (codenamed Android Nexus 6 and 9 have just been released. By the time you read this there will no doubt be a whole barrage of newer devices on the market. While the technology may move forward at a frightening rate yet the way we use it will remain fairly static. We will continue to communicate with each other through this technology. Share memories, ideas and humor through text, images and video. This is what&rsquo;s important.</p>
+<h2 id="apps"><a name="user-content-apps" href="#apps" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Apps</h2>
+<p>The word <em>App</em> is a recent addition to the common vernacular that describes a small computer program that fulfills a specific function. Since the launch if the Apple App Store back in</p>
+<p>If you are an Apple user you will search for and install your apps from the Apple App Store](<a href="https://itunes.apple.com/gb/genre/ios/id36?mt=8">https://itunes.apple.com/gb/genre/ios/id36?mt=8</a>). If you have never installed an app on an Apple device before we talk you through it in the video below. <em>Hopefully my thick Scottish accent won’t prove too much for you.</em></p>
+<video width="640" height="480" controls="controls"><source src="../videos/install_app_ipad.mp4" type="video/mp4"/> Your browser does not support the video tag. </video>
+
+<p>The <a href="https://play.google.com">Play Store</a> is Google&rsquo;s response to Apples App Store and just like Apples offering there are a whole range of apps from Games and toys all te way to Word Processors and Image Editors. Chances are, if you can think of something you can do with your phone or tablet <a href="http://www.wired.com/2010/10/app-for-that/">there will already be an app for it</a>. If you have never installed an app on an Android device we show you the ropes in the video below.</p>
+<h1 id="the-activities"><a name="user-content-the-activities" href="#the-activities" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The Activities</h1>
+<p>The activities we outline here are a part of our teaching and have proved popular with our students and can be adapted to language learners of any level. We have split the activities in to two (hopefully self explanatory) categories - <strong>Inside Class</strong> and <strong>Outside Class</strong>. Feel free to change anything or even better, create your own activity from scratch. We haven&rsquo;t created any worksheets or other materials for you to use and adapt. This is intentional. We want you to create <em>your own</em> activities and tools for your students. You know what&rsquo;s best for your style of teaching and you know what works best in your classroom.</p>
+<p><em>And remember, if you do create something we would love to <a href="mailto:tommy@teachability.eu">hear about it</a>.</em></p>
+<h2 id="inside-class"><a name="user-content-inside-class" href="#inside-class" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Inside Class</h2>
+<p>We are going to start off outlining a few activities you can conduct without even leaving the classroom. These activities are ideal for introducing Mobile Devices in to your lessons if you haven&rsquo;t already. Even if your students have the latest and greatest iPhone you might be surprised to hear that they have never used it as part of their learning. Starting things off in the classroom gives you and your students a safe environment to play around and adjust to using these devices as tools for teaching and learning.</p>
+<h3 id="roundhouse"><a name="user-content-roundhouse" href="#roundhouse" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Roundhouse</h3>
+<p>This is a simple vocabulary activity with a competitive element. Firing up your chat app (we like to use either <a href="http://www.whatsapp.com">WhatsApp</a> or <a href="http://www.google.com/+/learnmore/hangouts/">Google Hangouts</a> for this task). Start by creating a group conversation. How you achieve this differs slightly depending what platform and app you are using. We&rsquo;ll show you how to do it using Google Hangouts on Android but the process is similar if you are using an iPhone or iPad. Your first job is to ensure you have everyone in the class is added to your phone as a contact. If you are using WhatsApp then you will need your students phone number and the easiest way to get it is to ask your class to either call you then hang-up or send you a text message. You can then go through each missed phone call or text message and add the sender to your address book.</p>
+<p>If you are using Google Hangouts then the process is potentially a bit simpler. You will need your students email addresses.  Ask your students to email you. You can then go through each email and add the sender&rsquo;s name and email address to your contacts.</p>
+<p>This is as good a point as any to mention digital security and privacy. We, as UK nationals tend to be fairly blaze when it comes to handing our personal details. However, not everyone in the world shares our casual attitude. If yoor students feel uncomfortable sharing their personal email then you can invite them to create an email purely for your class. <a href="http://www.gmail.com">Gmail (sometimes referred to as GoogleMail)</a> is ideal as a secondary email and is <a href="https://support.google.com/accounts/answer/27441?source=gsearch">easy to set up</a>.</p>
+<p>Now that you have your students added as contacts to your phone we can set up a group conversation with ease.</p>
+<p><img alt="Creating a new Group Conversation in Google Hangouts" src="images/hangouts_groupchat_step1_m.png" /></p>
+<ol>
+<li>Bring up the menu by pressing the overflow button (three vertical dots)</li>
+<li>Select New Group Conversation</li>
+<li>You will be presented with a list of your contacts.  Select the contacts you want added to the group. They will be highlighted with a tick symbol when added.</li>
+<li>All members of the group will be listed at the top section of the screen. You can remove any group members from here too.</li>
+</ol>
+<h4 id="scenario"><a name="user-content-scenario" href="#scenario" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Scenario</h4>
+<p>This is a vocabulary related quiz activity. You can either ask questions via the chat app itself or ask your questions out loud. The method you use will depend on what skill your trying to encourage, reading or listening.</p>
+<p>Your students give their answers through the chat app. Whats nice is that the students can see each others answers coming through on their screens and can see who answered first. Keen students will soon realize that simply providing an answer first may not be the correct strategy as you encourage accuracy over speed.</p>
+<p>We don&rsquo;t want to be too prescriptive with what questions you should ask. Depending</p>
+<h4 id="tools-needed"><a name="user-content-tools-needed" href="#tools-needed" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tools needed.</h4>
+<p>Mobile Devices with either WhatsApp or Google Hangouts installed.</p>
+<h4 id="time-needed"><a name="user-content-time-needed" href="#time-needed" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Time Needed</h4>
+<p>Initially setting up this activity can take a while as you will need to exchange contact details with your class. However, this only needs to be done once.<br />
+This activity can last as long as you want. However, we find that 15 to 30 minutes is an ideal time period as it can be quite a taxing activity, especially for beginner level students.</p>
+<h4 id="next-steps"><a name="user-content-next-steps" href="#next-steps" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Next Steps</h4>
+<p>The key here is to get students thinking productively about how they can use their mobile device for learning, this will involve them using their device in ways they may not have thought of.<br />
+As we discussed in the Tools section earlier in this guide, Google Hangouts allows you to attach images to conversations. With this in mind you could send your group an image and ask them to describe what they see or respond to your question by taking an image of their own. Either way, the key here is that all interactions between the group are automatically shared and stored. So even asking your students to take a picture <em>outside class</em> can lead to interesting conversations later <em>in class</em>.</p>
+<hr />
+<h3 id="where-in-the-world"><a name="user-content-where-in-the-world" href="#where-in-the-world" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Where in the World</h3>
+<h4 id="tools-needed_1"><a name="user-content-tools-needed_1" href="#tools-needed_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tools needed.</h4>
+<p>Pen. Paper. Mobile Device running Google Maps.</p>
+<h5 id="scenario_1"><a name="user-content-scenario_1" href="#scenario_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Scenario.</h5>
+<p>You&rsquo;re students are part of a local private investigation team on the heels of an international criminal (I&rsquo;ll leave the details of the crime to you).</p>
+<hr />
+<h2 id="outside-class"><a name="user-content-outside-class" href="#outside-class" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Outside Class</h2>
+<p>When we say <strong>outside class</strong> we don&rsquo;t necessarily mean outside College. Indeed, we start off this section by introducing an activity that is best used indoors. Whether it be your College, a local Gallery space or if you are adventurous &ndash; a local shopping centre, the central themes of these activities will be situations and locations.</p>
+<h3 id="postr"><a name="user-content-postr" href="#postr" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Postr&rsquo;</h3>
+<h4 id="tools-needed_2"><a name="user-content-tools-needed_2" href="#tools-needed_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tools Needed</h4>
+<p>Mobile Device. Learner Dictionary App. Either NFC or Qr-Code based Posters (you&rsquo;ll be making these yourself)</p>
+<h4 id="scenario_2"><a name="user-content-scenario_2" href="#scenario_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Scenario</h4>
+<p>We couldn&rsquo;t think of a decent name for this activity, sorry&ndash;any suggestions for a better name would be most welcome. Silly names aside, this activity centers around the use of posters placed around a specific location or a series of locations. Remember when we discussed Context earlier? Well it&rsquo;s time to put context to good use. The central idea of this activity is to use the physical environment to</p>
+<p>When designing your poster you can be as simple or as elaborate as you like. We opted for a fairly plain design as we wanted to use our posters again for other activities.</p>
+<p>We designed our posters using the free, open source <a href="http://www.gimp.org/">Gimp</a> image editor. If you haven&rsquo;t used Gimp before then you could have a look at a simpler, but no less capable image editor such as <a href="https://pixlr.com/">PIXLR</a>. You could even create a lesson where students design and print off their own posters.</p>
+<h2 id="apps_1"><a name="user-content-apps_1" href="#apps_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Apps</h2>
+<h4 id="learner-dictionary"><a name="user-content-learner-dictionary" href="#learner-dictionary" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Learner Dictionary</h4>
+<p>If your learners have a mobile device they will probably have some kind of learner dictionary already installed. If not, there are a number of freely available on-line dictionaries for English Language Learners can be used on mobile. Our current favorite is The Macmillan Dictionary, it has a clean design that focuses the learner on the content without the distractions of adverts and extraneous design. Of course the mark of a good on-line dictionary is the accuracy and suitability of its definitions and this is where MacMillan dictionaries really shine. The definitions are clear and understandable by both learners and native speakers.</p>
+<h4 id="if-this-then-that-ifttt"><a name="user-content-if-this-then-that-ifttt" href="#if-this-then-that-ifttt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>If This Then That (IFTTT)</h4>
+<p>IFTTT is a unique system that allows you to develop your own relationships between apps and services. R</p>
+<h4 id="google-maps"><a name="user-content-google-maps" href="#google-maps" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Google Maps</h4>
+<p>Be careful though, maps can be daunting even for native speakers and many UK place names</p>
+<h2 id="apps_2"><a name="user-content-apps_2" href="#apps_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Apps</h2>
+<h3 id="communication"><a name="user-content-communication" href="#communication" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Communication</h3>
+<p>Text messaging has been a fundamental feature of Mobile Phones since the mid-nineties and remains one of their defining characteristics. Yet, until recently, sending text messages was expensive and sending messages with images attached remains both expensive and cumbersome for both the sender and the person receiving them. Thankfully, with advent of cheap, always on, internet connectivity for mobile devices sending and receiving text messages with or without pictures is both free and easy. Perhaps the only issue we have now is choosing a chat app from the seemingly endless array available. Your choice could depend on what your friends are using, there&rsquo;s little point in using a chat app that no one else is using.</p>
+<p>Your probably using one of these apps anyway, keeping up with friends and family. However, they make excellent tools for teaching English both in and out the classroom.Text messaging has been a fundamental feature of Mobile Phones since the mid nineties.</p>
+<h4 id="google-hangouts"><a name="user-content-google-hangouts" href="#google-hangouts" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Google Hangouts</h4>
+<p>Previously knows as Google Talk, Hangouts real strength is that it&rsquo;s available not only for Android and iOS but pretty much anywhere you have a web browser. Like Skype, Hangouts offers video conferencing and can also be used for telephone based conversations.</p>
+<h4 id="skype"><a name="user-content-skype" href="#skype" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Skype</h4>
+<h4 id="whatsapp"><a name="user-content-whatsapp" href="#whatsapp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>WhatsApp</h4>
+<p>Terrible name aside, WhatsApp has become one of the most popular communication apps on both Android and iPhone. Like Google Hangouts, WhatsApp allows you to create groups. You can attach images, videos and even locations to messages. The WhatsApp team have tried to create a replacement for the standard text message and as such WhatsApp is only avilable on Mobile Phones. This means that as part of the sign-up process you will be required to provide your phone number. It also means that will be unable to use WhatsApp on your computer or even your tablet. Despite these limitations, WhatsApp has grown to become a massively popular way for people to communicate, eclipsing other popular communications apps as much as ten to one in terms of active users. Perhaps it&rsquo;s this popularity that led <a href="http://newsroom.fb.com/news/2014/02/facebook-to-acquire-whatsapp/">Facebook to buy WhatsApp for $16 Billion dollars</a>.</p>
+<h3 id="which-app-is-right-for-me"><a name="user-content-which-app-is-right-for-me" href="#which-app-is-right-for-me" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Which app is right for me?</h3>
+<p>WhatsApp makes a great replacement for the standard text messaging feature of your phone. Yet, it can only be used on a phone, no desktop, no even a tablet version exists. While Skype has been around the longest and is the best known of the bunch uur personal favorite is Google Hangouts: it&rsquo;s available on all major platforms, including desktop. It&rsquo;s interface is clear and consistent across all platforms meaning if you know how to use it on an Android phone you&rsquo;ll also understand how to use it on an iPhone. Our learners also find it easy to use. Whats great about all these apps is that you can download and try them for free.</p>
+<hr />
+<h3 id="if-this-then-that-iftt"><a name="user-content-if-this-then-that-iftt" href="#if-this-then-that-iftt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>If This Then That (IFTT)</h3>
+<p>IFTT allows you to create interactions between applications and services right from your phone.  There is a wide range of community created Recipes to choose from that you can use for yourself. Best of all, you can create your own, either from scratch or from modifying an existing recipe. Here, we will be focusing on creating a recipe of our own.</p>
+<h2 id="nfc-technology"><a name="user-content-nfc-technology" href="#nfc-technology" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>NFC Technology</h2>
+<p>We have created a separate guide to NFC that we will be releasing soon. However, for the sake of completeness we will provide a little overview here, just in case. NFC or (Near Field Communication)[<a href="http://en.wikipedia.org/wiki/Near_field_communication">http://en.wikipedia.org/wiki/Near_field_communication</a>] is an emerging standard that allows for short, snippets of data to be exchanged between digital devices. To date, most NFC enabled devices have been from the Android device manufacturers such as Samsung and LG. However, devices running Windows Phone and even some newer Blackberry devices come equipped with NFC.</p>
+<p>The interaction offered by this technology is simple. When an NFC enabled device (such as a mobile phone) comes in to contact with another NFC device such as an NFC chip or a pay point or even another phone, information can be exchanged between these devices. This information can be as simple as your contact details such as phone number and email address or more elaborate such as payment information between a phone and a &lsquo;swipe and pay&rsquo; machine.</p>
+<p>We found that a benefit of NFC technology was that it was easy for us to explain and easy for our learners to understand. Simply touch the phone to the tag. Thats it. Simple and easy to explain to learners of any language level and proficiency.</p>
+<h1 id="next"><a name="user-content-next" href="#next" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Next&hellip;</h1>
+<p>We said right in the at the beginning thaty this guide is an experiment. An experiment both in publishing and in communicating new ideas in using new technologies in language teaching and learning. Our central aim with this guide has always been to create something that would lower the bar for entry to using mobile technology in the classroom. Over the last few years, we have held talks and workshops to staff and students of a number of Colleges and Universities in the UK. What really surprised us was the general level of understanding around mobile devices. Even concepts that we had assumed were now common knowledge were often misunderstood by many of the teachers we spoke to. We realized there was little point in promoting mobile learning if our target audience didn&rsquo;t know the difference between in iPhone and an Android device.</p>
+<p>When making this guide we knew we wanted anyone to be able to pick it up and understand it. This meant that all technology had to be explained at a basic level. We couldn&rsquo;t assume that our readers had heard of, let alone used any of the technologies that we have come to take for granted. With this in mind we have set out to create a document that helps the reader take the first tentative steps to interacting with mobile technology. We felt that this was the most important aspect of what we were doing. We also wanted to give the reader a general idea of research in mobile learning without going in to too much unnecessary detail. We felt that anyone who was interested in finding out more could easily conduct their own research. The links we provided at the end of the theory section should be a good start.</p>
+<p>The activities we outlined in this guide were left deliberately abstract. We knew this would be a controversial decision as it would require more work on the readers part. However, there are plenty of [listicles]<a href="https://github.com/">https://github.com/</a>) out there for those <a href="https://www.google.co.uk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#qscrl=1&amp;q=10+ways+to+use+the+ipad+in+your+classroom">looking for a quick fix</a>.</p></article></body></html>

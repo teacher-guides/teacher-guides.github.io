@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title:  Plain Text - A Micro Guide for Educators
 date:   2015-05-4 09:00:51
 categories: guides
@@ -54,20 +54,20 @@ Finally, for the technically inclined the entire guide, including images, videos
 We have licensed this work via a (highly) permissive Creative Commons license. To cut through the legalese this basically means that you are free to build, modify and publish new materials based on this guide as long as you give proper attribution. The full details of this license are available from the [Creative Commons Website](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Plain Text?
-I can imagine what your thinking--Why create a guide about plain text? And, perhaps more to the point--*what is plain text?* In order to answer that question we have to reflect on how most of us in education currently create our teaching resources. In further and higher education, Information Technology forms the core of how we as students and educators interact with technology. Information Technology (or IT)
+I can imagine what your thinking--Why create a guide about plain text? And, perhaps more to the point--*what is plain text and why do I care about it?* In order to answer that question we have to reflect on how most of us in education currently create our teaching resources. In further and higher education, Information Technology forms the core of how we as students and educators interact with technology. Information Technology (or IT) is the result of many years of 
 
 ## Word Processors
-Microsoft Word is so pervasive that we seldom even hear the term "Word Processor" now. Most of us just use 'Word' or maybe 'Microsoft Word' if we are feeling pedantic and be done with it. The Word Processor has evolved from a tool to help us design and write printed documents to a fully fledged Desktop Publishing tools. With that comes a great level of complexity. We have all seen those paper signs hung in shop windows, created using Words infamous and ironically titled "WordArt" feature. These documents have all the style of a ransom note. Large fonts, s
+Microsoft Word is so pervasive that we seldom even hear the term "Word Processor" now. Most of us just use 'Word' or at best 'Microsoft Word' if we are feeling pedantic. The Word Processor has evolved from a tool to help us design and write printed documents to a fully fledged Desktop Publishing tool. With that comes a great level of complexity. We have all seen those paper signs hung in shop windows, created using Words infamous and ironically titled "WordArt" feature. These documents have all the style of a ransom note. Oversized comic style fonts coupled with gaudy gradients may seem
 
 >"When all you have is a hammer, everything looks like a nail".
 --Various
 
-So goes the famous adage that hints at the human tendency to bend and shape things to what we know and understand. Applied to computers and software, many of us tend to rely on
+So goes the famous adage that hints at the human tendency to bend and shape things to what we know and understand. Applied to computers and software, many of us tend to rely on 
 
-Now, I'm going to let you in to a secret--you don't actually need a Word Processor to create good loooking documents. I'll say it again, just in case--you don't need a word processor. In fact, I would argue that all that interface just gets in the way of creating quality content.
+Now, I'm going to let you in to a secret--you don't actually need a Word Processor to create good looking documents. I'll say it again, just in case--you don't need a word processor. In fact, I would argue that all that interface just gets in the way of creating quality content. 
 
 ## A Typical Scenario
-John--lets say he's a language teacher wants to create a worksheet for his students. Obviously, his first port of call is Microsoft Word. He creates the worksheet, prints tweny of them off for his students.
+John--lets say he's a language teacher--wants to create a worksheet for his students. Obviously, his first port of call is Microsoft Word. He creates the worksheet, prints tweny of them off for his students. So far so good. 
 
 
 # Markup -- An Introduction
@@ -171,7 +171,7 @@ We can create nested lists (lists within lists) by indenting (using the TAB key)
 ## Web Links
 One of the great things about Markdown is that you can compile your text file in to any number of other formats. Simplifying HTML was the original purpose of **Markdown** and compiling to HTML remains its most common purpose. As such, embedding web-links within your documents is something you will no doubt be relying on.
 
-**Markdown** supports a number of link styles. The simplest of which is the inline-style made up of a
+**Markdown** supports a number of hyperlink styles. The simplest of which is known as the *inline-style* and is created  made up of a
 
 	[This link will take you to Google.com](http://www.google.com)
 
@@ -182,7 +182,7 @@ You can also include a title at the end of the link text that will help describe
 Will give you this when viewed as a web page. *Note the popup at the bottom.*
 ![Link with title](./images/link_with_title.png)
 
-As you write your document and the links mount up you may find that overall readability is compromised. Links are a generally messy affair to have littering your document. This is especially true of you have extra long links such as the one highlighted below.
+As you write your document and the links mount up you may find that overall readability is compromised. Links are a generally messy affair to have littered around your document. This is especially true of you have extra long links such as the one highlighted below.
 
 	[Google Docs](http://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&c
 	d=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fwww.google.co.uk%2Fdocs%2
