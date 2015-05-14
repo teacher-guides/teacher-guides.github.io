@@ -1,9 +1,9 @@
 # Site settings
-title: Mobile Technologies for Teachers
+title: New Technologies in Education -- Guides for Educators
 email: skywriter@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-These guides are the result of a Jisc funded collaboration between Central College Nottingham
-and the Learning Sceinces Research Institute, Nottingham.
+	These guides are the result of a Jisc funded collaboration between
+	Central College Nottingham and the Learning Sciences Research Institute, Nottingham.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://teacher-guides.github.io" # the base hostname & protocol for your site
 twitter_username: TomDSweeney
