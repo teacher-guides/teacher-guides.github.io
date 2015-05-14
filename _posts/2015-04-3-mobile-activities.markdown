@@ -1,11 +1,11 @@
 ---
 layout: guide
-title:  Mobile Activities for English language learning
+title:  Mobile Learning Activities for English Language Learning
 date:   2015-05-11 08:59:53
 categories: guides
 ---
 
-![Mobile Learning Activities for English Language learning](images/front_cover_activities_m.png)
+![Mobile Learning Activities for English Language learning](/assets/images/location/front_cover_activities_m.png)
 
 
 
@@ -76,7 +76,7 @@ Yet even as Steve Jobs was introducing the iPhone, the relationship between educ
 
 In 1972, [Alan Kay](http://en.wikipedia.org/wiki/Alan_Kay), a 32 year old, Mathematician, Computer Scientist and education enthusiast published a paper detailing his vision for the Dynabook, a small, magazine-sized computer that could be used by children (of all ages) to consume, create and share books, music and video. Even in this early document, Kay had specified that such a device could allow its users to design utilities and games and share resources with other Dynabook users.
 
-![Alan Kay holding a prototype of the Dynabook](images/alan_kay_with_dynabook_m.jpg)
+![Alan Kay holding a prototype of the Dynabook](/assets/images/location/alan_kay_with_dynabook_m.jpg)
 
 Kay had worked closely with Educational visionary [Seymour Papert](http://www.papert.org/) -- the designer of the [LOGO programming language](http://en.wikipedia.org/wiki/Logo_(programming_language)), [Lego Mindtorms](http://en.wikipedia.org/wiki/Lego_Mindstorms) and [Constructionism](http://en.wikipedia.org/wiki/Constructionism_(learning_theory)). He had also worked under the educational theorist [Jean Piaget](http://en.wikipedia.org/wiki/Jean_Piaget). Like Papert before him, Kay was not so much concerned with designing technology, rather his interest was in developing new methods for teaching and learning supported by technology.
 
@@ -123,8 +123,10 @@ An often quoted definition comes from Brown (2010) who says that context can be 
 
 We like this definition, it's clear and to the point and captures all the necessary aspects of context namely location, people, tools and time. When we discuss context we are really discussing a situation. The place or location, the people who were there, the tools and technology that was used and the time it occurred. When we say that "I saw Mike last Thursday night. We had a few drinks at the Cock and Bull and he gave" we are really describing all the fundamental aspects of a context.
 
-![A (rather crude) visualization of Context](images/context_drawing.png)
-## Context in Education.
+![A (rather crude) visualization of Context](/assets/images/location/context_drawing.png)
+
+## Context in Education
+
 Most of us have both taught and learned within the classroom context A typical classroom will contain desks, chairs, a white-board, perhaps even some desktop computers. Classrooms are boring by design. They are blank slates, it is up to the teacher to create meaning and inspiration.
 
 This is not the space to criticize the classroom. It has it's place and function, and in the right hands can be as. However, it's a big world out there. And incorporating learning that happens outside of the classroom can form a crucial facet of your lessons. *this needs work*
@@ -158,7 +160,7 @@ The word *App* is a recent addition to the common vernacular that describes a sm
 
 If you are an Apple user you will search for and install your apps from the Apple App Store](https://itunes.apple.com/gb/genre/ios/id36?mt=8). If you have never installed an app on an Apple device before we talk you through it in the video below. *Hopefully my thick Scottish accent won’t prove too much for you.*
 
-<video width="640" height="480" controls="controls"><source src="../videos/install_app_ipad.mp4" type="video/mp4"/> Your browser does not support the video tag. </video>
+<video width="640" height="480" controls="controls"><source src=“/assets/videos/location/install_app_ipad.mp4" type="video/mp4"/> Your browser does not support the video tag. </video>
 
 The [Play Store](https://play.google.com) is Google's response to Apples App Store and just like Apples offering there are a whole range of apps from Games and toys all te way to Word Processors and Image Editors. Chances are, if you can think of something you can do with your phone or tablet [there will already be an app for it](http://www.wired.com/2010/10/app-for-that/). If you have never installed an app on an Android device we show you the ropes in the video below.
 
@@ -180,7 +182,7 @@ This is as good a point as any to mention digital security and privacy. We, as U
 
 Now that you have your students added as contacts to your phone we can set up a group conversation with ease.
 
-![Creating a new Group Conversation in Google Hangouts](images/hangouts_groupchat_step1_m.png)
+![Creating a new Group Conversation in Google Hangouts](/assets/images/location/hangouts_groupchat_step1_m.png)
 
 1. Bring up the menu by pressing the overflow button (three vertical dots)
 2. Select New Group Conversation
