@@ -54,8 +54,8 @@ Finally, for the technically inclined the entire guide, including images, videos
 We have licensed this work via a (highly) permissive Creative Commons license. To cut through the legalese this basically means that you are free to build, modify and publish new materials based on this guide as long as you give proper attribution. The full details of this license are available from the [Creative Commons Website](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
-# Physical Computing and The Internet of Things Once upon a time there
-was a computer. This computer sat on a desk under the stairs in its
+# Physical Computing and The Internet of Things 
+Once upon a time there was a computer. This computer sat on an old desk, under the main stairs of its
 family's home. Over the next few years the computer ventured out,
 further in to the family home, sitting in the laps of children,
 helping them with their home work and chatting. They
