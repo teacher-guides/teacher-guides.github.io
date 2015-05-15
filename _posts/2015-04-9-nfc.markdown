@@ -79,33 +79,53 @@ guides at any one other than the casual observer. With this in mind we see this 
 Simon Wardman (one of the authors of this guide) has been using NFC technology in his English language classes for the last few years. Here, he shares some of his ideas on how to integrate NFC technology in to teaching and learning.
 
 ## Make life easy
-Make life easy by bringing the web closer within your learning spaces. NFC tags make it simpler to exchange digital content and connect electronic devices with a touch. The student homepage provides official, up-to-date, college information. Students should know how to access the college’s homepage and be able to access it on a regular basis outside the college. An NFC tag facilitates rapid mobile access to student information, news and events from a variety of areas of the College including Student Finance, Learner Involvement, EDI, Sport Volunteering. The student homepage will also provide help and support and provide links to key learning application.
+![Making life easy using NFC tags](/assets/images/physical/tip1.jpg)
+
+Make life easy by bringing the web a more tangible aspect of your learning spaces. NFC tags make it simpler to exchange digital content and connect electronic devices with a touch. The student homepage provides official, up-to-date, college information. Students should know how to access the college’s homepage and be able to access it on a regular basis outside the college. An NFC tag facilitates rapid mobile access to student information, news and events from a variety of areas of the College including Student Finance, Learner Involvement, EDI, Sport Volunteering. The student homepage will also provide help and support and provide links to key learning application.
 
 ## Bridge the gap between experts and learners
+![Making life easy using NFC tags](/assets/images/physical/tip2.jpg)
+
 Narrow the distance between experts and new learners by linking short video profiles to the photos creating a useful bridge between the physical and digital learning environments.
 
 ## Out of hours support
+![Making life easy using NFC tags](/assets/images/physical/tip3.jpg)
+
 NFC tags can be used at reception or when college facilities are closed. Tags could refer students to online help, a welcome video or even connect them directly to helpline support.
 
 ## College rules and regulations
+![Making life easy using NFC tags](/assets/images/physical/tip4.jpg)
+
 College posters can be linked to college online policy statements and strategy documents to supply students with additional information.
 
 ## Understand the students needs
+![Making life easy using NFC tags](/assets/images/physical/tip5.jpg)
+
 NFC posters can provide an easy way to link to online questionnaires and feedback forms. Hardcopies of questionnaires should always be available if students have difficulty with connectivity or lack of Wi-Fi. NFC tags can even be incorporated in to the hardcopies themselves, providing a fun way for students to engage with an often tiresome task.
 
 ## NFC tags can support collaborative and social learning
+![Making life easy using NFC tags](/assets/images/physical/tip6.jpg)
+
 The fundamental role of the teacher is not to transmit information but to guide the social process of learning. Out of classroom activities using NFC posters are a great way to support this.
 
 ## Use contactless technology for access control
+![Making life easy using NFC tags](/assets/images/physical/tip7.jpg)
+
 Central College has chosen contactless technology for their solution to access control. Credentials may also be sent to smartphones as soon as an ID card is issued. This could save money by cutting down on printing cards.
 
-## Use NFC tags to promote professional development events and networking
+## Promote professional development events and networking
+![Making life easy using NFC tags](/assets/images/physical/tip8.jpg)
+
 Teachers need areas online to discuss and debate educational issues. NFC tags can promotes access to online subject specific forums or educational networking groups.
 
 ## Make the most of existing online learning resources and the institution’s VLE
+![Making life easy using NFC tags](/assets/images/physical/tip9.jpg)
+
 Virtual Learning Environments (VLEs) are used by many colleges but unfortunately many students aren’t getting the most from their platform. Make sure the administrators have optimized the VLE for mobile devices and insist that the IT department allow students to use their own email, so that they can receive peer notifications via the VLE. This will help keep students engaged with the resources and collaborative activates. Make certain an NFC poster directs students to the learning resources and facilitates the logging in process.
 
 ##Link physical noticeboards to digital ones
+![Making life easy using NFC tags](/assets/images/physical/tip10.jpg)
+
 A physical Student noticeboard provides a focus for students when they leave their classrooms and can lists opportunities and information of direct interest to students.
 When physical noticeboards are linked by NFC to online forums and noticeboards, students can become part of a discussion and can share their own news, views and announcements.
 NFC technology works at close distances and can be used behind lockable noticeboards and the other side of clear plastic or glass without any problems. It is difficult to read NFC tags unintentionally as they only have a range of a few centimetres. NFC tags can be put on any poster placed around the college and on almost anything to provided added guidance or information.
