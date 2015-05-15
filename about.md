@@ -6,7 +6,10 @@ permalink: /about/
 
 These guides are the results of an on going Jisc funded collaboration between Central College Nottingham and the Learning Sciences Research Institute.
 
+
+
 ---
+
 
 Central [College Nottingham](http://www.centralnottingham.ac.uk/) is a multi-campus further education college that offer a vast range of courses and apprenticeships. 
 
