@@ -3,12 +3,14 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <p class="post-meta">Last updated on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+	  <header class="post-header">
+	    <p class="post-meta">Last updated on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	  </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+	  <article class="post-content">
+	  	<img src="{{ page.cover }}" alt="{{ page.title }} cover" />
+	  	{% include license.html %}
+	    {{ content }}
+	  </article>
+	  {% include comments.html %}
 </div>

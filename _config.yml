@@ -1,5 +1,5 @@
 # Site settings
-title: New Technologies in Education -- Guides for Educators
+title: Technology Micro-Guides for Educators
 email: skywriter@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -9,3 +9,6 @@ github_username:  skywriter2000
 
 # Build settings
 markdown: kramdown
+
+# output settings
+permalink: none # we won't be using dates in paths here.

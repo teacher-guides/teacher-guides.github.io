@@ -3,57 +3,8 @@ layout: guide
 title:  Mobile Learning Activities for English Language Learning
 date:   2015-05-11 08:59:53
 categories: guides
+cover: /assets/images/location/front_cover_activities_m.png
 ---
-
-![Mobile Learning Activities for English Language learning](/assets/images/location/front_cover_activities_m.png)
-
-
-
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons Licence" /></a><br />
-Mobile Language Learning: A Micro-Guide for Educators by Thomas Sweeney and Simon Wardman is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
-## Where to access this guide
-You can access this guide either from it's web page on the [Teachability Website](http://www.teachability.eu) or via Jiscs website.
-
-The guide is available in the following electronic formats:
-
-* **Epub**: iBooks for iPhone, iPad and OSX
-* **Mobi**: Amazon Kindle
-* **HTML**: Web Browsers
-* **Text**: Everything else.
-
-The version on the Teachability website (http://teachability.eu/guides/location-based-activities-language-learning-micro-guide-educators/) is the canonical version. We will be updating this version with any additions or corrections (just) before any of the other versions. So if you want the latest and greatest then read stick to this version.
-
-## What is this?
-This guide is an experiment in [crowd sourced](http://en.wikipedia.org/wiki/Crowdsourcing) research and publishing. What your reading now is the first revision of what we hope will expand over time to include a number of different activities, reviews and general views and ideas about learning all contributed by a community of educators, learners, researchers and everyone in between. With luck--and your help--we aim to develop a resources that will contribute to the ongoing conversations on how we can use mobile technology in teaching and learning. Your contributions could be as simple as tidying up the source material through identifying spelling and grammar errors or as in-depth as designing and adding new material of your own such as new teaching activities or photography or graphics or even tutorial videos for others to learn from.
-
-## How to contribute
-Both Simon and I have started this guide, but we need you to help us complete it. Although perhaps *complete* isn't the right word here, we hope that this guide will never be completed, at least in any traditional sense. We hope that through your contributions this document can expand and adapt as mobile technology and the pedagogy that it supports it changes and evolves.
-
-There are a few different ways you can contribute to this guide depending on *how* much you want to contribute and *what* you want to contribute.
-
-If you want to draw our attention to a glaring spelling mistake or grammatical *faux-pas* then a short email to either or both of the authors would be appreciated.
-
-If you are looking to contribute something more substantial such as an article, photography or a video then feel free to contact us using any of the methods listed below.
-
-### Sending an Email
-Comments, corrections and complaints can be sent to either [Thomas Sweeney ](mailto:tommy@teachability.eu) or [Simon Wardman](mailto:simon@teachability.eu). We would love to hear from you no matter what your experience with this guide, positive or negative. If you find it useful then of course, please tell us--who doesn't like praise? However, we are equally as anxious to hear about any potential improvements or corrections.
-
-### Leave a comment on our website
-If you prefer a more open, social form of communication you can leave comments on our website. We've made a page for this guide at [www.teachability.eu/guides](http://teachability.eu/guides/). We use the [Disqus](https://disqus.com/) social comment system.
-
-### Social Media
-You can contact either of the authors individually via their respective [Twitter](http://www.twitter.com) accounts
-Simon Wardman [@nottinghamcolle](https://twitter.com/NottinghamColle)
-Thomas Sweeney [@TomDSweeney](https://twitter.com/tomdsweeney)
-Alternatively we have a joint account [@teachablog](https://twitter.com/teachablog)
-You can follow, share pictures, send messages or follow Tommy on [Google Plus](https://plus.google.com/) via [google.com/+TommySweeney](http://www.google.com/+TommySweeney)
-
-### GitHub
-Finally, for the technically inclined the entire guide, including images, videos and text is available as a [Github](http://www.github.com) repository. We won't detail the ins and outs of Git in this guide, if you know what it is and know how to use it then you'll know how powerful it is. If not, don't worry. You can create, modify and otherwise play around with the source material by downloading a [zip](https://www.google.co.uk/?gfe_rd=cr&ei=1nhpVJzlJYuCbKy4gOgF&gws_rd=ssl#q=zip+file) file directly from [https://github.com/](GitHub).
-
-## Modifying and Using this Guide Elsewhere
-We have licensed this work via a (highly) permissive Creative Commons license. To cut through the legalese this basically means that you are free to build, modify and publish new materials based on this guide as long as you give proper attribution. The full details of this license are available from the [Creative Commons Website](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 # Introduction
 This is an introduction to Mobile Learning. You have probably heard at least something about this new field before, even if it's just the idea of using Mobile Devices in the classroom. In the final section of the book we will discuss some engaging activities you can use with your English language students. Specifically, we will focus on how you can use mobile devices running free, off the shelf tools to create engaging, playful experiences that can add a new dimension to your lessons.  There has been a great deal written about how institutions can incorporate Mobile Learning. Often, evidence is taken from pilot studies in academia and are rooted in educational theory. Yet, many of these documents, while informative, fail to provide readers with a basic understanding of how to use mobile devices in their classroom practice. Even current documentation from Jisc (while well written and accessible) is aimed at Managers interested in institution-wide adoption e.g. [The Jisc infoKit on Mobile Learning](http://www.jiscinfonet.ac.uk/infokits/mobile-learning/implementation/10-steps-adoption/). We feel that there is a need to involve teachers and learners more directly in the design and adoption of mobile tools in learning. Indeed, we feel that it is time that teachers feel confident enough to introduce mobile technology to their lessons without the intervention of managers or academics. *Please help me with this paragraph, especially the last sentence.*

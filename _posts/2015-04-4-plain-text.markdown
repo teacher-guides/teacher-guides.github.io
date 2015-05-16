@@ -1,13 +1,13 @@
 ---
 layout: guide
-title:  Plain Text - A Micro Guide for Educators
+title:  Plain Text - Moving beyond the Word processor
 date:   2015-05-4 09:00:51
 categories: guides
 ---
 
 # Plain Text: A Micro-Guide for Educators
 
-Plain Text: A Micro-Guide for Educators by Thomas Sweeney and Simon Wardman is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+Plain Text: Moving beyond the Word Processor by Thomas Sweeney and Simon Wardman is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 
 ## Where to access this guide
