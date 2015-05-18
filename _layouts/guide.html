@@ -8,12 +8,12 @@ layout: default
 	  </header>
 
 	  <article class="post-content">
-	  <div class="">
-	  	{% if page.cover %}
-	  		<img src="{{ page.cover }}" alt="{{ page.title }} cover" />
-	  		<br />
+		{% if page.cover %}
+		  	<div class="">
+		  		<img src="{{ page.cover }}" alt="{{ page.title }} cover" />
+		  	</div>
 	  	{% endif %}
-	  </div>
+
 	  	{% include license.html %}
 	    {{ content }}
 	  </article>
