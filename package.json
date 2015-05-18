@@ -1,0 +1,35 @@
+{
+  "name": "teacher-guides",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-auto-install": "^0.2.3",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-link-checker": "^0.1.0"
+  },
+  "description": "The web-home for those teacher guides. A Jisc funded collaboration between Central College Nottingham and The Learning Sciences Research Institute at the University of Nottingham",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-link-checker": "^0.1.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teacher-guides/teacher-guides.github.io.git"
+  },
+  "keywords": [
+    "education",
+    "report"
+  ],
+  "author": "Thomas Sweeney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teacher-guides/teacher-guides.github.io/issues"
+  },
+  "homepage": "https://github.com/teacher-guides/teacher-guides.github.io"
+}
