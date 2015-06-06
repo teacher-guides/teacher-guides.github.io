@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/<%= pkg.name %>.js',
+        src: 'src/<%= pkg.name %>.js',∏
         dest: 'build/<%= pkg.name %>.min.js'
       }
     }
@@ -29,10 +29,14 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
+  // Load the plugin for link checking
+  grunt.loadNpmTasks('grunt-link-checker');
+
+
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
-  // Load the plugin for link checking
-  grunt.loadNpmTasks('grunt-link-checker');
+
+
 
 };
